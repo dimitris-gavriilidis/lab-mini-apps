@@ -9,7 +9,7 @@ def add_numbers():
         c = float(input("Enter third number: "))
 
         result = a + b + c
-        print(f"\n✅ The total is: {result}")
+        print(f"\n✅ The total is : {result}")
 
     except ValueError:
         print("⚠️ Please enter valid numbers!")
